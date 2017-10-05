@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{title}}</title>
+  </head>
+  <body>
+    <div class="cupcake-list">
+      {{#each cupcakes}}
+        <div class="cupcake">
+          <h4>{{this.name}}</h4>
+          <p>{{this.baker}}</p>
+          <p>{{this.avgRating}}</p>
+
+        </div>
+
+      {{/each}}
+
+    </div>
+
+  </body>
+</html>
